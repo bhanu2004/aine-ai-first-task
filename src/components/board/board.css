@@ -37,6 +37,7 @@
     border: 0;
     font-size: 20px;
     margin-bottom: 20px;
+    outline: none;
 }
 .input__url::placeholder{
     font-weight: 500;

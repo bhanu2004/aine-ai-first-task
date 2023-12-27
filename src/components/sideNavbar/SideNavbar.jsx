@@ -6,7 +6,7 @@ import { BiBook } from "react-icons/bi";
 import { IoSettingsOutline } from "react-icons/io5";
 
 function SideNavbar() {
-  const [activeNav, setActiveNav] = useState("lesson");
+  const [activeNav, setActiveNav] = useState("lessons");
   return (
     <div className='sideNavbar__container'>
         <div className="company__logo">
