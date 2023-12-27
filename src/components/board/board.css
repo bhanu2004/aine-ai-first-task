@@ -54,6 +54,9 @@
     outline: none;
     cursor: pointer;
 }
+.fileInput{
+    display: none;
+}
 @media screen and (max-width: 1280px) {
     .board__header{
         font-size: 20px;
