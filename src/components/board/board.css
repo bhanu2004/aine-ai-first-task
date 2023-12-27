@@ -1,0 +1,107 @@
+.board__container{
+    margin-top: 90px;
+    width: 100%;
+    padding-top: 20px;
+    flex-grow: 1;
+    background-color: #F4F5F7;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+.board__header{
+    color: #7A8FA5;
+    font-size: 24px;
+    /* display: flex;
+    align-items: center; */
+}
+.video__wrapper{
+    width: 70%;
+    max-width: 950px;
+    margin-top: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    align-self: center;
+    text-align: center;
+}
+.video__wrapper p{
+    font-weight: 500;
+    font-size: 24px;
+}
+.input__url{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.input__url::placeholder{
+    font-weight: 500;
+}
+.upload__box{
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 1280px) {
+    .board__header{
+        font-size: 20px;
+    }
+    .upload__box{
+        width: 120px;
+        height: 120px;
+        font-size: 16px;
+    }
+    .video__wrapper p{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .input__url{
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:720px) {
+    .video__wrapper{
+        width: 100%;
+        padding-right: 80px;
+    }
+    .upload__box{
+        width: 120px;
+        height: 120px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:420px) {
+    .board__container{
+        margin-top: 90px;
+        width: 100%;
+        padding-top: 20px;
+        flex-grow: 1;
+        background-color: #F4F5F7;
+        padding-left: 120px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+    }
+    .video__wrapper{
+        width: 100%;
+        padding-right: 30px;
+    }
+    .input__url{
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .board__header{
+        font-size: 18px;
+    }
+}
